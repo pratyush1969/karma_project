@@ -494,3 +494,54 @@ textarea{
   flex-direction: column;
   background-image: url('/public/images/tac_bg.jpg');
 }
+/* zombie */
+/* ZombieGame.css */
+/* CssQuizGame.css */
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url('/public/images/bg-cssquiz.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.question-container {
+  height: 100vh;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  background-color: #5889b4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.answer-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.score {
+  font-size: 20px;
+  margin-top: 20px;
+  width: 60px;
+  color: black;
+}

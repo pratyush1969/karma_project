@@ -8,6 +8,7 @@ import Blog from './blog'
 import Game from './Game'
 import Rock from './Tictac'
 import Tic from './rock'
+import CssQuizGame from './flex'
 
 import Contact from './Contact';
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/games" element={<Game />}/>
             <Route path="/rock" element={<Rock />}/>
             <Route path="/tic" element={<Tic />}/>
+            <Route path="/flexbox" element={<CssQuizGame/>}/>
 
             <Route path="/contact" element={<Contact/>}/>
 
