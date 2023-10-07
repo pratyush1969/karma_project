@@ -39,10 +39,10 @@ const Games = () => {
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/tic">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/TicTacToe_logo.jpg" alt="" />
               <div className="overlay">
 
                 <h2>Rock-Paper-Seizer</h2>
@@ -63,7 +63,7 @@ const Games = () => {
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/tic">
 
             <div className="game-card">
               <img src="../images/r-p-s.jpg" alt="" />

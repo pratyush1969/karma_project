@@ -7,6 +7,7 @@ import Frontend from './front'
 import Blog from './blog'
 import Game from './Game'
 import Rock from './Tictac'
+import Tic from './rock'
 
 import Contact from './Contact';
 function App() {
@@ -21,6 +22,8 @@ function App() {
             <Route path="/blog" element={<Blog />}/>
             <Route path="/games" element={<Game />}/>
             <Route path="/rock" element={<Rock />}/>
+            <Route path="/tic" element={<Tic />}/>
+
             <Route path="/contact" element={<Contact/>}/>
 
           </Routes>
