@@ -33,7 +33,7 @@ const Games = () => {
               <img src="../images/r-p-s.jpg" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>Rock-Paper-Scissors</h2>
                 <p>Play and Learn</p>
 
               </div>
@@ -45,7 +45,7 @@ const Games = () => {
               <img src="../images/TicTacToe_logo.jpg" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>Tic-Tac-Toe</h2>
                 <p>Play and Learn</p>
 
               </div>
@@ -57,7 +57,7 @@ const Games = () => {
               <img src="../images/css-quiz.webp" alt="" />
               <div className="overlay">
 
-                <h2>Felxbox</h2>
+                <h2>Flexbox</h2>
                 <p>Play and Learn</p>
 
               </div>
@@ -81,7 +81,7 @@ const Games = () => {
               <img src="../images/dice.jpeg" alt="" />
               <div className="overlay">
 
-                <h2>dice game</h2>
+                <h2>Roll the Dice</h2>
                 <p>Play and Learn</p>
 
               </div>
@@ -90,10 +90,10 @@ const Games = () => {
           <Link to="/fun">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/6game.jpg" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>Code Game!</h2>
                 <p>Play and Learn</p>
 
               </div>
