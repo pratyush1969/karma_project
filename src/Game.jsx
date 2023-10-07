@@ -87,7 +87,7 @@ const Games = () => {
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/fun">
 
             <div className="game-card">
               <img src="../images/r-p-s.jpg" alt="" />

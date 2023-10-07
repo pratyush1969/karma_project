@@ -11,6 +11,7 @@ import Tic from './rock'
 import CssQuizGame from './flex'
 import FrogGame from './FrogGame'
 import Contact from './Contact';
+// import Fun from './fun';
 function App() {
   return (
     <Router>
@@ -27,6 +28,7 @@ function App() {
             <Route path="/flexbox" element={<CssQuizGame/>}/>
             <Route path="/frog"element ={<FrogGame/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            {/* <Route path='/fun' element={<Fun/>}/> */}
 
           </Routes>
      </div>
