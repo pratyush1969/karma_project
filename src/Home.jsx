@@ -92,7 +92,7 @@ const Home = () => {
                     </div>
 
                     <div className="persons">
-                        <img src="https://tse4.mm.bing.net/th?id=OIP.fUdURS8RFDOUKFvzrCEe_AHaHa&pid=Api&P=0&h=180" alt="" />
+                        <img src="soumyadip.jpg" alt="" />
                         <h3>Soumyadip Dhara</h3>
                         <h6>Python and Java Programmer</h6>
                         <p>Skills:-C,C++,Python,Java</p>
