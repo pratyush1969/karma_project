@@ -57,19 +57,19 @@ const Games = () => {
               <img src="../images/css-quiz.webp" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>Felxbox</h2>
                 <p>Play and Learn</p>
 
               </div>
             </div>
           </Link>
-          <Link to="/tic">
+          <Link to="/frog">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/th.jpeg" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>Set The Frog</h2>
                 <p>Play and Learn</p>
 
               </div>

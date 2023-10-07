@@ -9,7 +9,7 @@ import Game from './Game'
 import Rock from './Tictac'
 import Tic from './rock'
 import CssQuizGame from './flex'
-
+import FrogGame from './FrogGame'
 import Contact from './Contact';
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Route path="/rock" element={<Rock />}/>
             <Route path="/tic" element={<Tic />}/>
             <Route path="/flexbox" element={<CssQuizGame/>}/>
-
+            <Route path="/frog"element ={<FrogGame/>}/>
             <Route path="/contact" element={<Contact/>}/>
 
           </Routes>
