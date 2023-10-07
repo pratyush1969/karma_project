@@ -30,7 +30,7 @@ const Games = () => {
           <Link to="/rock">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/rck.jpeg" alt="" />
               <div className="overlay">
 
                 <h2>Rock-Paper-Scissors</h2>

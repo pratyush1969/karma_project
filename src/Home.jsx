@@ -15,8 +15,8 @@ const Home = () => {
                     <img src="../images/logofinal.png" alt="" />
                 </div>
                 <div className="links">
-
-                    <Link to="/">Home</Link>
+                   
+                    <Link to="/home">Home</Link>
                     <Link to="/course">Course</Link>
                     <Link to="/blog">Blog</Link>
                     <Link to="/games">Games</Link>

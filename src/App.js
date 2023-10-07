@@ -13,13 +13,14 @@ import FrogGame from './FrogGame'
 import Contact from './Contact';
 // import Fun from './fun';
 import Dice from './dice';
+import Signin from "./signin";
 function App() {
   return (
     <Router>
       <div className="App">
           <Routes>
-         
-            <Route path="/" element={<Home />}/>
+            <Route path="/" element={<Signin/>}/>
+            <Route path="/home" element={<Home />}/>
             <Route path="/course" element={<Course />}/>
             <Route path="/frontend" element={<Frontend />}/>
             <Route path="/blog" element={<Blog />}/>
@@ -32,7 +33,6 @@ function App() {
 
             
             <Route path="/dice"element ={<Dice/>}/>
-
           </Routes>
      </div>
     </Router>
