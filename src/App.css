@@ -292,7 +292,7 @@ iframe{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url("C:\\Users\\PRATYUSH SARKAR\\Downloads\\karmakshetra\\codewaveapp\\public\\images\\game1.jpg");
+  background-image: url("/public/images/game1.jpg");
   background-position: center;
   background-size: cover;
 }
