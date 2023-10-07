@@ -1,38 +1,456 @@
-.App {
+body{
+  background-color: antiquewhite;
+  overflow-x: hidden;
+  padding: 0;
+}
+.activeColor{
+  padding-top: 5px;
+  height:50px;
+  width:40%;
+  border:2px solid grey;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
   text-align: center;
 }
+.pointer{
+  cursor: pointer;
+}
+/*header*/
+.header{
+  width:100%;
+  height:10vh;
+  background-color: rgb(15, 32, 46);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position:fixed;
+  top:0;
+  left: 0;
+  z-index: 100;
+}
+.header .image img{
+width:200px;
+height:100px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.header .link{
+  display: flex;
+  margin-right: 20px;
+}
+.header .links a{
+  margin-right: 50px;
+  margin-left: 10px;
+  color:white;
+  text-decoration: none;
+}
+.header .links a:hover{
+  color:red;
+  text-decoration: underline;
+}
+/*video*/
+/*.videos{
+  width:100%;
+  height:80vh;
+  background-position: center;
+  background-color: red;
+  background-position: center;
+}
+.videos video{
+  width:100%;
+  height:80vh;
+  background-size: cover;
+}
+ button{
+  width:300px;
+  height:10vh;
+  position:relative;
+  top:-180px;
+  left:280px;
+  background-color: blue;
+  border-radius: 10px;
+  border:none;
+  outline: none;
+}
+button a{
+  font-size: x-large;
+  color:white;
+  text-decoration: none;
+}*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*bootstrap*/
+.carsoul{
+  height:110vh
+}
+.carsoul img{
+  height:110vh
+}
+.carsoul-details{
+  position: relative;
+  top:50px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*about*/
+.about{
+  width:100%;
+  height:40vh;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
+.about .image{
+  margin:20px
+}
+.about .about-para{
+  width:500px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.about img{
+  width:350px;
+  height:350px;
+ 
+}
+ button{
+  border:none;
+  width:180px;
+  height:6vh;
+  border-radius: 10px;
+  font-size: x-large;
+  color:white;
+  background-color: blue
+  
+}
+ button a{
+  color:white;
+  text-decoration: none;
+}
+.benefit{
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.benefit-section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.benefits{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefits i{
+      font-size: 5em;
+      margin: 30px
+}
+.benefit-content{
+  border: 1px solid red;
+  padding: 10px;
+  width:400px;
+  text-align: center;
+}
+/*teammates*/
+.teammates{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.persons{
+  text-align: center;
+}
+.persons img{
+  width:150px;
+  height:150px
+}
+/*course*/
+.input-container{
+  width:100%;
+  margin-top: 20px;
+}
+#searchInput{
+  padding: 10px;
+  outline: none;
+  width:50%;
+  border: 1px solid grey;
+  margin: 20px;
+  position: relative;
+  left:25%;
+  
+  box-shadow: 0 3px 5px black;
+}
+input::placeholder{
+  color:black
+}
+.content-container{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  margin-top: 20px;
+}
+.content-container .content-list{
+  display:flex;
+  width:700px;
+  height:200px;
+ 
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: antiquewhite;
+  box-shadow: 0 5px 5px  grey;
+}
+.content-container .content-list img{
+  width:300px;
+  height:200px;
+  padding: 10px;
+}
+.content-container .content-list .details{
+  padding: 10px;
+}
+/*front end*/
+.front-container{
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.frontend{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ /* flex-direction: column;*/
+  width:100%;
+  flex-wrap: wrap;
+}
+.frontend-details{
+  display: flex;
+  box-shadow: 0 3px 5px grey;
+  width:700px;
+  height:200px;
+  margin: 20px;
+
+}
+iframe{
+  width:400px;
+  height:200px
 }
 
-.App-link {
-  color: #61dafb;
+.details1{
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*blog*/
+.card-container{
+  
+  width:100%;
+  height:auto;
+}
+.card-body{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:100%;
+  height:auto;
+}
+.cards{
+  width:480px;
+  height:255px;
+ box-shadow: 0 5px 5px grey;
+  margin: 10px;
+  display: flex;
+  margin: 10px;
+  font-family:sans-serif;
+  background-color: antiquewhite;
+}
+.card-details{
+  margin: 10px;
+}
+.cards img{
+  width:200px;
+  height:100%;
+  margin-right: 10px;
+
+}
+/*games*/
+.wrapper{
+  width:100%;
+  height:100vh;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("C:\\Users\\PRATYUSH SARKAR\\Downloads\\karmakshetra\\codewaveapp\\public\\images\\game1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.game-card{
+ width:400px;
+ box-shadow: 0 10px 20px white;
+ position: relative;
+ border-radius: 10px;
+ margin-right:30px;
+ margin-left: 10px;
+}
+.game-card img{
+  width:100%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+.overlay{
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition:0.6s ;
+}
+.overlay:hover{
+  opacity: 1;
+}
+.overlay h2{
+  font-size: 35px;
+  color:white;
+  font-family: Verdana;
+  text-align: center;
+}
+.overlay p{
+  font-size: 20px;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*rock*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Game {
+  text-align: center;
+  height:auto;
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+*/
+.heading {
+  font-size: 50px;
+}
+
+.score {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choice {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.computer-hand {
+  width: 250px;
+}
+
+.user-hand {
+  width: 250px;
+  transform: rotateY(180deg);
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: coral;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.result {
+  padding: 50px;
+}
+/*contact*/
+.map{
+  width:100%;
+  height:100vh;
+ margin-top: -60px;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.map iframe{
+  width:800px;
+  height: 500px;
+  box-shadow: 3px  3px 3px 3px grey;
+}
+.form-inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form-content{
+  
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  width:450px;
+  height:500px;
+  margin-top:20px ;
+  margin-bottom: 20px;
+  box-shadow: 3px  3px 3px 3px grey;
+  margin-left: 20px;
+}
+.form-inputs input{
+  width:400px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+textarea{
+  width:400px;
+  margin-top: 20px;
+
+}
+
+.submit{
+  background-color: dodgerblue;
+  color:aliceblue;
+  border: none;
+
 }

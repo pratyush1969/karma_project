@@ -1,0 +1,45 @@
+[
+    {
+        "image":"https://tse2.mm.bing.net/th?id=OIP.OKqKamexJPN70yKknGFXQgHaDp&pid=Api&P=0&h=180",
+
+        "title":"Front End Development",
+        "description":"HTML,CSS,JavaScript,React JS,Angular JS...",
+        "rating":"⭐⭐⭐⭐⭐",
+        "link":"/frontend"
+    },
+    {
+        "image":"https://tse4.mm.bing.net/th?id=OIP.A-tfdwH0aI44aB9odErs5QHaEc&pid=Api&P=0&h=180",
+        "title":"Back End Development",
+        "description":"Node JS,Express JS,Mongodb...",
+        "rating":"⭐⭐⭐⭐",
+        "link":"/back-end"
+    },
+    {
+        "image":"https://www.smartspate.com/wp-content/uploads/2019/10/Programming-What-Is-It-Picture-One.jpg",
+        "title":"Programming Languages",
+        "description":"R,C,C++,Python,Java...",
+        "rating":"⭐⭐⭐⭐⭐",
+        "link":"/language"
+    },
+    {
+        "image":"https://tse4.mm.bing.net/th?id=OIP.7u5bQsTw_bllP32M_iK9BgHaEo&pid=Api&P=0&h=180",
+        "title":"Machine Learning",
+        "description":"Pyhton,Advance Python and Machine learning with AI",
+        "rating":"⭐⭐⭐⭐",
+        "link":"/machine-learning"
+    },
+    {
+        "image":"https://tse2.mm.bing.net/th?id=OIP.pQbUoTKuWaQl34zzobDTSgHaEO&pid=Api&P=0&h=180",
+        "title":"Database Management",
+        "description":"Oracle,MySQL,Mongodb...",
+        "rating":"⭐⭐⭐⭐",
+        "link":"/dbms"
+    },
+    {
+        "image":"https://www.pcerror-fix.com/wp-content/uploads/2021/03/cyver-security-scaled.jpeg",
+        "title":"Cyber Security",
+        "description":"Basics and advanced concepts of Cyber Security",
+        "rating":"⭐⭐⭐⭐",
+        "link":"/cyber"
+    }
+]
