@@ -168,7 +168,12 @@ button a{
 }
 .persons img{
   width:150px;
-  height:150px
+  height:150px;
+  border: 2px solid black;
+  border-radius: 50%;
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 0cqi;
 }
 /*course*/
 .input-container{

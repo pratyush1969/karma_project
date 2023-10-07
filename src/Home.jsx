@@ -78,7 +78,7 @@ const Home = () => {
                 <h1 style={{ textAlign: 'center', margin: '50px', color: '#e84393', textDecoration: 'underline' }}>Our Team Mates</h1>
                 <div className="teammates">
                     <div className="persons">
-                        <img src="pratyush.jpg" alt="" />
+                        <img src="Pratyush.jpeg" alt="" />
                         <h3>Pratyush Sarkar</h3>
                         <h6>Front End Developer and UI/UX Designer</h6>
                         <p>Skills:-HTML,CSS,Bootstrap,JavaScript,React JS,Express JS</p>
@@ -99,7 +99,7 @@ const Home = () => {
                     </div>
 
                     <div className="persons">
-                        <img src="https://www.profilepicture7.com/img/img_dongman/2/-868606927.jpg" alt="" />
+                        <img src="Triniket.jpeg" alt="" />
                         <h3>Triniket Maiti</h3>
                         <h6>Back End Developer</h6>
                         <p>Skills:-Node JS,Express JS,MongoDB</p>
