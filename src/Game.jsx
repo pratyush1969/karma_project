@@ -39,10 +39,10 @@ const Games = () => {
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/tic">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/TicTacToe_logo.jpg" alt="" />
               <div className="overlay">
 
                 <h2>Rock-Paper-Seizer</h2>
@@ -51,43 +51,43 @@ const Games = () => {
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/flexbox">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/css-quiz.webp" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>Felxbox</h2>
                 <p>Play and Learn</p>
 
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/frog">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/th.jpeg" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>Set The Frog</h2>
                 <p>Play and Learn</p>
 
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/dice">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/dice.jpeg" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>dice game</h2>
                 <p>Play and Learn</p>
 
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/fun">
 
             <div className="game-card">
               <img src="../images/r-p-s.jpg" alt="" />

@@ -7,8 +7,12 @@ import Frontend from './front'
 import Blog from './blog'
 import Game from './Game'
 import Rock from './Tictac'
-
+import Tic from './rock'
+import CssQuizGame from './flex'
+import FrogGame from './FrogGame'
 import Contact from './Contact';
+// import Fun from './fun';
+import Dice from './dice';
 function App() {
   return (
     <Router>
@@ -21,7 +25,13 @@ function App() {
             <Route path="/blog" element={<Blog />}/>
             <Route path="/games" element={<Game />}/>
             <Route path="/rock" element={<Rock />}/>
+            <Route path="/tic" element={<Tic />}/>
+            <Route path="/flexbox" element={<CssQuizGame/>}/>
+            <Route path="/frog"element ={<FrogGame/>}/>
             <Route path="/contact" element={<Contact/>}/>
+
+            
+            <Route path="/dice"element ={<Dice/>}/>
 
           </Routes>
      </div>
