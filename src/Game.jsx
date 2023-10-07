@@ -93,7 +93,7 @@ const Games = () => {
               <img src="../images/6game.jpg" alt="" />
               <div className="overlay">
 
-                <h2>Code Game!</h2>
+                <h2>Other list of Coding Games!</h2>
                 <p>Play and Learn</p>
 
               </div>
