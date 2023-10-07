@@ -729,3 +729,16 @@ form{
   align-items: center;
   background-color: #5383be;
 }
+.others{
+  display:flex;
+ background-image: url("https://tse4.mm.bing.net/th?id=OIP.NSqBKirDy7sj9qEaqCfBDwHaEK&pid=Api&P=0&h=180");
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:100vh
+}
+.others a img{
+    width:300px;
+    height:300px;
+    margin: 20px;
+}

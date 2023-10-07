@@ -14,6 +14,7 @@ import Contact from './Contact';
 // import Fun from './fun';
 import Dice from './dice';
 import Signin from "./signin";
+import Fun from './Fun'
 function App() {
   return (
     <Router>
@@ -31,7 +32,8 @@ function App() {
             <Route path="/frog"element ={<FrogGame/>}/>
             <Route path="/contact" element={<Contact/>}/>
 
-            
+            <Route path="/fun" element={<Fun/>}/>
+
             <Route path="/dice"element ={<Dice/>}/>
           </Routes>
      </div>
