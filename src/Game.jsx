@@ -75,13 +75,13 @@ const Games = () => {
               </div>
             </div>
           </Link>
-          <Link to="/rock">
+          <Link to="/dice">
 
             <div className="game-card">
-              <img src="../images/r-p-s.jpg" alt="" />
+              <img src="../images/dice.jpeg" alt="" />
               <div className="overlay">
 
-                <h2>Rock-Paper-Seizer</h2>
+                <h2>dice game</h2>
                 <p>Play and Learn</p>
 
               </div>
