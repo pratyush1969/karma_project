@@ -528,6 +528,7 @@ button {
 
 /*dice*/
 .dice-container {
+  background-image: url("/public/images/dice-bg.jpg");
   text-align: center;
   padding: 2rem 2rem;
   margin: 1rem;

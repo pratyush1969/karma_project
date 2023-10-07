@@ -11,11 +11,8 @@ import Tic from './rock'
 import CssQuizGame from './flex'
 import FrogGame from './FrogGame'
 import Contact from './Contact';
-<<<<<<< HEAD
 // import Fun from './fun';
-=======
-import Dice from './dice'
->>>>>>> b06458bf5f100611765287d3babcabbbb812e150
+import Dice from './dice';
 function App() {
   return (
     <Router>
@@ -32,11 +29,9 @@ function App() {
             <Route path="/flexbox" element={<CssQuizGame/>}/>
             <Route path="/frog"element ={<FrogGame/>}/>
             <Route path="/contact" element={<Contact/>}/>
-<<<<<<< HEAD
-            {/* <Route path='/fun' element={<Fun/>}/> */}
-=======
+
+            
             <Route path="/dice"element ={<Dice/>}/>
->>>>>>> b06458bf5f100611765287d3babcabbbb812e150
 
           </Routes>
      </div>
